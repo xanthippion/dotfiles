@@ -1,0 +1,9 @@
+syntax on
+set nu
+set noerrorbells
+set visualbell
+set t_vb=
+set autoindent
+let base16colorspace=256
+colorscheme base16-default
+set background=dark

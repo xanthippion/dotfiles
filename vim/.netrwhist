@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/matt'
+let g:netrw_dirhist_2='/home'
+let g:netrw_dirhist_3='/home/matt'
+let g:netrw_dirhist_4='/home/matt/.mpv'
+let g:netrw_dirhist_5='/home/matt'
+let g:netrw_dirhist_6='/home'
+let g:netrw_dirhist_7='/home/matt'
+let g:netrw_dirhist_8='/home/matt/.i3'
