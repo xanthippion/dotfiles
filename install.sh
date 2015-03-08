@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # dotfiles backup directory
-files="i3 irssi vim zprezto gitconfig tmux.conf vimrc Xresources"    # list of files/folders to symlink in homedir
+files="i3 vim gitconfig tmux.conf vimrc Xresources zlogin zlogout zpreztorc zprofile zshenv zshrc"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -36,5 +36,12 @@ done
 if [[ ! -d ~/.config/base16-shell/ ]]; then
   echo -n "Installing Base16 Shell ..."
   git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+  echo "done!"
+fi
+
+# install prezto if it isn't present
+if [[ ! -d ~/.zprezto/ ]]; then
+  echo -n "Installing Prezto ..."
+  git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
   echo "done!"
 fi

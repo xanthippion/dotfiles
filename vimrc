@@ -7,3 +7,6 @@ set autoindent
 let base16colorspace=256
 colorscheme base16-default
 set background=dark
+set tabstop=2
+set shiftwidth=2
+set expandtab
