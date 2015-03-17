@@ -133,7 +133,9 @@
 ! URxvt*url-launcher:                   string
 
 !*font: -*-tamsyn-medium-*-16-*
-*font: -*-peep-medium-*-16-*-iso8859-1,-*-fixed-medium-*-15-*-iso10646-1
+*font: -*-peep-medium-*-16-*-iso8859-1, \
+       -misc-fixed-medium-r-normal-*-15-140-*-iso10646-1
+!       -gnu-unifont-medium-r-normal-*-17-*-iso10646-1
 *scrollBar: false
 
 *cursorBlink: true
