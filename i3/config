@@ -196,7 +196,7 @@ new_window pixel 2
 # finds out, if available)
 bar {
 #	status_command i3status
-	status_command ~/conky-i3bar
+	status_command i3blocks
 	tray_output HDMI-0
 	position top
 	font pango:Sans 8
