@@ -5,7 +5,7 @@ set visualbell
 set t_vb=
 set autoindent
 let base16colorspace=256
-colorscheme base16-default
+colorscheme base16-twilight
 set background=dark
 set tabstop=2
 set shiftwidth=2
