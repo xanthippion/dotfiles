@@ -232,3 +232,5 @@ exec --no-startup-id sh ~/.fehbg
 exec --no-startup-id compton --config ~/.config/compton.conf -b
 exec --no-startup-id conky -c ~/.conkyrc
 #exec --no-startup-id sh ~/start_jack.sh
+
+# vim:filetype=i3
