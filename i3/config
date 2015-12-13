@@ -126,8 +126,8 @@ bindsym $mod+Shift+9 move container to workspace nine
 bindsym $mod+Shift+0 move container to workspace ten
 
 
-assign [class="^Chromium$"] → 🌍 web
-for_window [class="^Chromium$"] focus
+assign [class="^chromium$"] → 🌍 web
+for_window [class="^chromium$"] focus
 assign [instance="ncmpcpp"] → 🎼 music
 for_window [instance="ncmpcpp"] focus
 assign [instance="irssi"] → 💬 irc
