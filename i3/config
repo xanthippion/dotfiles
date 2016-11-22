@@ -126,8 +126,8 @@ bindsym $mod+Shift+9 move container to workspace nine
 bindsym $mod+Shift+0 move container to workspace ten
 
 
-assign [class="^chromium$"] → 🌍 web
-for_window [class="^chromium$"] focus
+assign [class="^Chromium$"] → 🌍 web
+for_window [class="^Chromium$"] focus
 assign [instance="ncmpcpp"] → 🎼 music
 for_window [instance="ncmpcpp"] focus
 assign [instance="irssi"] → 💬 irc
@@ -179,7 +179,7 @@ bindsym $mod+Home exec chromium
 bindsym $mod+Insert exec thunar
 bindsym $mod+Delete exec gimp
 bindsym $mod+End exec --no-startup-id urxvt -e ssh zaffre
-bindsym $mod+F12 exec --no-startup-id urxvt -name irssi -e irssi
+bindsym $mod+F12 exec --no-startup-id urxvt -name irssi -e tmuxinator irssi
 bindsym $mod+F11 exec fs-uae-launcher
 
 client.background #1e1e1e
